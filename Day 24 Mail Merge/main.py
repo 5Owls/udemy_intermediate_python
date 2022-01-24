@@ -1,3 +1,4 @@
+'''At first I tried using lists but that got complicated quickly, at least for me, then I used strings and done. '''
 str_template = ''
 for sentence in open('./Input/Letters/starting_letter.txt'):
     str_template = str_template + sentence
